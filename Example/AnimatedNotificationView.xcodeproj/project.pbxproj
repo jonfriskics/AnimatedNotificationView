@@ -16,6 +16,8 @@
 		ABF2E427177FCD150059E563 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF2E426177FCD150059E563 /* Default.png */; };
 		ABF2E429177FCD150059E563 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF2E428177FCD150059E563 /* Default@2x.png */; };
 		ABF2E42B177FCD150059E563 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF2E42A177FCD150059E563 /* Default-568h@2x.png */; };
+		ABF2E433177FCD350059E563 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2E432177FCD350059E563 /* ViewController.m */; };
+		ABF2E436177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF2E435177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		ABF2E426177FCD150059E563 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		ABF2E428177FCD150059E563 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		ABF2E42A177FCD150059E563 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		ABF2E431177FCD350059E563 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF2E432177FCD350059E563 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF2E434177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JFAnimatedNotificationView.h"; sourceTree = "<group>"; };
+		ABF2E435177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JFAnimatedNotificationView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 				ABF2E423177FCD150059E563 /* AppDelegate.h */,
 				ABF2E424177FCD150059E563 /* AppDelegate.m */,
 				ABF2E41B177FCD150059E563 /* Supporting Files */,
+				ABF2E431177FCD350059E563 /* ViewController.h */,
+				ABF2E432177FCD350059E563 /* ViewController.m */,
+				ABF2E434177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.h */,
+				ABF2E435177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.m */,
 			);
 			path = AnimatedNotificationView;
 			sourceTree = "<group>";
@@ -166,6 +176,8 @@
 			files = (
 				ABF2E421177FCD150059E563 /* main.m in Sources */,
 				ABF2E425177FCD150059E563 /* AppDelegate.m in Sources */,
+				ABF2E433177FCD350059E563 /* ViewController.m in Sources */,
+				ABF2E436177FCD500059E563 /* UIViewController+JFAnimatedNotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
