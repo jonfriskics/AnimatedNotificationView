@@ -48,7 +48,7 @@
 }
 
 /**
- * This instance method is triggered in the showNotificationWithMessage: animation block completion callback.
+ * This private instance method is triggered in the showNotificationWithMessage: animation block completion callback.
  * @param popupView The UIView notification popup that is currently on screen
  */
 - (void)hideNotification:(UIView *)popupView
